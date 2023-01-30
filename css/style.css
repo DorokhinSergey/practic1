@@ -1,0 +1,422 @@
+/* &display=swap&subset=cyrillic-ext (вставить в плагин) для удаленного подключения*/
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - lite
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700&display=swap&subset=cyrillic-ext");
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  font-family: "Roboto"; 
+  line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.main{
+  margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.back{
+  line-height: 1;
+    background-color: rgba(128, 128, 128, 0.342);
+}
+
+.whoweare {
+	padding: 0px 0px 230px 0px;
+}
+.whoweare__image{
+  margin: 0px 0px 9px 0px;
+}
+.whoweare__container {
+	max-width: 1020px;
+	margin: 0px auto;
+	padding: 100px 87px 0px 87px;
+	background: #fff 100% 0 no-repeat;
+  /* я ебу алибабу сука ебаная картинка!!!! */
+}
+
+.whoweare__subtitle {
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 27px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin: 0px 0px 28px 0px;
+	background: 0 0 no-repeat;
+	padding: 0px 0px 0px 30px;
+}
+.whoweare__title {
+	color: #02133c;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	max-width: 583px;
+	margin: 0px 0px 33px 0px;
+}
+.whoweare__text {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	margin: 0px 0px 52px 0px;
+}
+.whoweare__image {
+	margin: 0px 0px -180px 0px;
+}
+.whoweare__image img {
+	max-width: 100%;
+  margin: 0px 0px -120px 0px;
+}
+
+.whoweare__container2{
+weight:700px;
+Size:12px;
+Line height: 27px;
+Letter:2.5px;
+margin: 0px auto;
+	padding: 100px 87px 0px 87px;
+}
+
+.log2{
+  color: #4B4B4B;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 27px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin: 0px 0px 33px 0px;
+}
+.title2{
+  color: #02133C;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0px 0px 78px 0px;
+}
+
+.conteiner-text{
+  background-color: white;
+    max-width: 324px;
+    text-align: center;
+    padding: 50px 0px 49px 0px;
+    margin: 0px 0px 24px 0px;
+}
+
+.text1{
+  color: #02133C;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    margin: 0px 0px 20px 0px;
+}
+
+
+
+.text2{
+  color: #4B4B4B;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+.container3{
+  background-color: white;
+    max-width: 324px;
+    text-align: center;
+    padding: 50px 0px 49px 0px;
+}
+.img4{
+  margin: 0px 0px 33px 0px;
+}
+.Tires{
+  color: #02133C;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    margin: 0px 0px 20px 0px;
+}
+.At{
+  color: #4B4B4B;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+
+.title4{
+  font-family: "Poppins";
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0px 0px 26px 0px;
+}
+.sub{
+  font-family: "Poppins";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0px 0px 20px 0px;
+}
+
+.texts1{
+  font-family: "Poppins";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+
+.texts2{
+  font-family: "Poppins";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+
+.texts3{
+  font-family: "Poppins";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+
+.General{
+  font-family: "Poppins";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+
+.By{
+  font-family: "Poppins";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+.quo{
+  font-family: "Poppins";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+.any{
+  font-family: "Poppins";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+.Prices1{
+  font-family: "Poppins";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+.The{
+  font-family: "Poppins";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+.Terms{
+  font-family: "Poppins";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+
+.credit{
+  font-family: "Poppins";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+.unless{
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0px 0px 15px 0px;
+}
+.Where{
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0px 0px 15px 0px;
+}
+.Credit{
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0px 0px 15px 0px;
+}
+
+.Card{
+  font-family: "Poppins";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+
+.commercial{
+  font-family: "Poppins";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+
+.zaeb{
+  font-family: "Poppins";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+.suka2{
+  font-family: "Poppins";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+.suka3{
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0px 0px 15px 0px;
+}
+
+.inform{
+  font-family: "Poppins";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+
+.descriptive{
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0px 0px 15px 0px;
+}
+
+.Delivery{
+  font-family: "Poppins";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+
+.qwer{
+  font-family: "Poppins";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+.qwert{
+  font-family: "Poppins";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+.container3{
+  margin: 0px 0px 100px 0px;
+}
+.mazaz{
+  margin: 0px 0px 100px 0px;
+}
+.eban{
+  max-width: 1020px;
+    padding: 100px 87px 0px 87px;
+}
+.eba2{
+  max-width: 436px;
+}
+
+.eba3{
+  font-family: "Poppins";
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 58px;
+    margin: 0px 0px 25px 0px;
+}
+.biba1{
+  margin: 0px 0px 9px 0px;
+}
+.eba4{
+  font-family: "Poppins";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+}
